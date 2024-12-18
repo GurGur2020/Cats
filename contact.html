@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <title>צור קשר</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+<nav>
+    <a href="index.html">דף הבית</a>
+    <a href="cat-types.html">סוגי חתולים</a>
+    <a href="cat-food.html">מזון לחתולים</a>
+    <a href="cat-toys.html">אבזרי משחק</a>
+    <a href="contact.html">צור קשר</a>
+</nav>
+
+<div id="contact-page">
+    <h1>צור קשר</h1>
+    <p>אנחנו כאן בשבילך! מלאו את הטופס הבא ונחזור אליכם בהקדם.</p>
+    <form action="submit-contact.php" method="post">
+        <label for="name">שם:</label>
+        <input type="text" id="name" name="name" required><br>
+
+        <label for="email">אימייל:</label>
+        <input type="email" id="email" name="email" required><br>
+
+        <label for="message">הודעה:</label><br>
+        <textarea id="message" name="message" rows="5" cols="40" required></textarea><br>
+
+        <button type="submit">שלח</button>
+    </form>
+
+    <h2>פרטי יצירת קשר</h2>
+    <ul>
+        <li>טלפון: 03-1234567</li>
+        <li>אימייל: contact@catworld.co.il</li>
+        <li>כתובת: רחוב חתולים 15, תל אביב</li>
+    </ul>
+</div>
+</body>
+</html>
